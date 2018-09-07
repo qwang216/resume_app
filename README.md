@@ -1,2 +1,2 @@
 
-<img src="resume_app_demo.gif" width="40" height="100" />
+<img src="resume_app_demo.gif" width="80" height="160" />
