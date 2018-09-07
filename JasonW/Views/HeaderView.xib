@@ -51,10 +51,10 @@
                                 </stackView>
                             </subviews>
                         </stackView>
-                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lSB-cC-EEh">
-                            <rect key="frame" x="212.5" y="38" width="202.5" height="90"/>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lSB-cC-EEh">
+                            <rect key="frame" x="212.5" y="23" width="202.5" height="120"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="90" id="Fxq-bl-gU5"/>
+                                <constraint firstAttribute="height" constant="120" id="Fxq-bl-gU5"/>
                             </constraints>
                             <string key="text">iOS Engineer with 3+ years of coding experience worked in an agile environment with self-motivated and goal-oriented mentality. </string>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>

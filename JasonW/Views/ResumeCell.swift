@@ -27,5 +27,12 @@ class ResumeCell: UITableViewCell {
         return UINib(nibName: "ResumeCell", bundle: nil)
     }
 
+    func configCell(position: Position) {
+        jobTitleLabel.text = position.jobTitle
+        workDurationLabel.text = position.duration
+        companyNameLabel.text = position.companyName
+        companyLogoImageView.image = UIImage(named: position.companyImageName)
+    }
+
 
 }
