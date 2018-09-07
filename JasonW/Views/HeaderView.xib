@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeaderView" customModule="JasonW" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="435" height="198"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="babybluegreengradiant_bg" translatesAutoresizingMaskIntoConstraints="NO" id="zfj-dc-xqI">
+                    <rect key="frame" x="0.0" y="0.0" width="435" height="198"/>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="fV3-Y0-cJp">
+                    <rect key="frame" x="10" y="16" width="415" height="166"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Jhc-dn-npg">
+                            <rect key="frame" x="0.0" y="0.0" width="202.5" height="166"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jason" translatesAutoresizingMaskIntoConstraints="NO" id="M5L-Oj-tcI">
+                                    <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="110" id="Ehg-M3-ASk"/>
+                                        <constraint firstAttribute="height" constant="110" id="VUY-dD-H7P"/>
+                                    </constraints>
+                                </imageView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="RzV-dE-oQT">
+                                    <rect key="frame" x="0.0" y="120" width="99" height="46"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jason Wang" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4JF-Xm-T97">
+                                            <rect key="frame" x="0.0" y="0.0" width="94" height="20.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS Engineer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mxl-XN-rX1">
+                                            <rect key="frame" x="0.0" y="25.5" width="99" height="20.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lSB-cC-EEh">
+                            <rect key="frame" x="212.5" y="38" width="202.5" height="90"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="90" id="Fxq-bl-gU5"/>
+                            </constraints>
+                            <string key="text">iOS Engineer with 3+ years of coding experience worked in an agile environment with self-motivated and goal-oriented mentality. </string>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="zfj-dc-xqI" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="LfV-MP-wGk"/>
+                <constraint firstItem="fV3-Y0-cJp" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="NMZ-8q-SHn"/>
+                <constraint firstItem="fV3-Y0-cJp" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="OJb-9f-t6A"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="zfj-dc-xqI" secondAttribute="trailing" id="Wv1-c7-MYv"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="zfj-dc-xqI" secondAttribute="bottom" id="eZW-nl-Ssq"/>
+                <constraint firstItem="zfj-dc-xqI" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="h7O-4Y-465"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="fV3-Y0-cJp" secondAttribute="trailing" constant="10" id="iDh-mc-k9o"/>
+                <constraint firstItem="fV3-Y0-cJp" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="qTK-zy-A9u"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="jobTitleLabel" destination="Mxl-XN-rX1" id="5bg-Zo-wTb"/>
+                <outlet property="nameLabel" destination="4JF-Xm-T97" id="75L-N2-vho"/>
+                <outlet property="profileImageView" destination="M5L-Oj-tcI" id="6xe-ua-8XO"/>
+                <outlet property="summaryTextView" destination="lSB-cC-EEh" id="zzU-Ng-4rj"/>
+            </connections>
+            <point key="canvasLocation" x="4.5" y="297"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="babybluegreengradiant_bg" width="2400" height="2000"/>
+        <image name="jason" width="1024" height="1024"/>
+    </resources>
+</document>
